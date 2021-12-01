@@ -11,7 +11,7 @@ namespace Badger
 
     class Device {
     public:
-        Device();
+        Device(std::string name);
         virtual ~Device();
     private:
         DeviceType m_type;

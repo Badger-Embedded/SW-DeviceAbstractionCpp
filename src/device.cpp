@@ -2,6 +2,6 @@
 
 namespace Badger
 {
-    Device::Device() {}
+    Device::Device(std::string name): m_name(name) {}
     Device::~Device() {}
 } // namespace Badger
